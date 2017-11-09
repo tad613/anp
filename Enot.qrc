@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Enot.jpg</file>
+        <file>Images/fenix.png</file>
+        <file>fenix.png</file>
+    </qresource>
+</RCC>
