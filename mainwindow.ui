@@ -724,6 +724,7 @@
     </property>
     <addaction name="actionCalculator"/>
     <addaction name="actionExit"/>
+    <addaction name="separator"/>
     <addaction name="actionOpen"/>
    </widget>
    <addaction name="menuFile"/>

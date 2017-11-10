@@ -15,6 +15,12 @@ public:
     explicit File(QWidget *parent = 0);
     ~File();
 
+private slots:
+    void on_actionOpen_triggered();
+
+
+    void on_Exit_clicked();
+
 private:
     Ui::File *ui;
 };
