@@ -21,6 +21,10 @@ private slots:
 
     void on_Exit_clicked();
 
+    void on_pushButton_clicked();
+
+    void on_spinBox_valueChanged(int arg1);
+
 private:
     Ui::File *ui;
 };

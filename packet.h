@@ -3,17 +3,15 @@
 
 #include <QObject>
 #include <QVector>
+
 struct PcapHeader
 {
-    qint32 t1;
-    qint32 t2;
+
     qint32 caplen;
     qint32 len;
 };
 class Packet
 {
-    unsigned int t1;
-    unsigned int t2;
 protected:
     unsigned int caplen;
     unsigned int len;
@@ -21,9 +19,9 @@ protected:
 public:
     Packet();
     ~Packet();
+
     PcapHeader pHeader;
     unsigned char data[2000];
-
     virtual void show();
 
     void setLen(int l) { len = l; };
@@ -43,6 +41,7 @@ struct PcapFHeader
 class PacketStream
 {
 public:
+
     PcapFHeader fHeader;
     QVector <Packet> packets;
 };

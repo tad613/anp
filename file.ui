@@ -42,14 +42,64 @@
      <rect>
       <x>20</x>
       <y>50</y>
-      <width>631</width>
+      <width>341</width>
       <height>421</height>
      </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>423</x>
+      <y>50</y>
+      <width>341</width>
+      <height>421</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="spinBox">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>20</y>
+      <width>42</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>20</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Введите номер пакета</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>20</y>
+      <width>121</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Вывести пакет</string>
     </property>
    </widget>
    <zorder>Exit</zorder>
    <zorder>A1</zorder>
    <zorder>textEdit</zorder>
+   <zorder>textEdit_2</zorder>
+   <zorder>spinBox</zorder>
+   <zorder>label</zorder>
+   <zorder>pushButton</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
